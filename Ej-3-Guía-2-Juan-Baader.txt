@@ -1,0 +1,18 @@
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+     Console.WriteLine ("Ingresar la nota de el primer trimestre");
+    int tri1 = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine ("Ingresar la nota de el segundo trimestre");
+    int tri2 = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine ("Ingresar la nota de el tercer trimestre");
+    int tri3 = Convert.ToInt32(Console.ReadLine());
+    int promedio = (tri1 + tri2 + tri3) / 3;
+    if (promedio <= 6)
+    Console.WriteLine($"Usted aprobó la materia con promedio de {promedio}");
+    else
+    if (promedio > 6)
+    Console.WriteLine($"Usted desaprobó la materi con promedio {promedio} ");
+  }
+}

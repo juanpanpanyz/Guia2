@@ -1,0 +1,15 @@
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+  Console.WriteLine("Ingrese un numero");
+    float numero = Convert.ToSingle(Console.ReadLine());
+    if (numero >= 0) { 
+ Console.WriteLine("Positivio");
+  }
+    else {
+      if (numero < 0) 
+      Console.WriteLine("Negativo");
+      }
+  }
+}
