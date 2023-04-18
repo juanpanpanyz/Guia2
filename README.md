@@ -21,12 +21,12 @@ using System;
 class Program {
   public static void Main (string[] args) {
   Console.WriteLine("Ingrese un numero");
-    int numero = Convert.ToSingle(Console.ReadLine());
-    if (edad >= 0) { 
+    float numero = Convert.ToSingle(Console.ReadLine());
+    if (numero >= 0) { 
  Console.WriteLine("Positivio");
   }
     else {
-      if (edad < 0) 
+      if (numero < 0) 
       Console.WriteLine("Negativo");
       }
   }
