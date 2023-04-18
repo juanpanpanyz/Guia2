@@ -20,7 +20,7 @@ using System;
 
 class Program {
   public static void Main (string[] args) {
-  Console.WriteLine("De que edad te gustan?");
+  Console.WriteLine("Ingrese un numero");
     int numero = Convert.ToSingle(Console.ReadLine());
     if (edad >= 0) { 
  Console.WriteLine("Positivio");
