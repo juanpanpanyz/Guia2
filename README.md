@@ -82,7 +82,27 @@ class Program {
 ## **Cuarto Ejercicio**
 
 ```c#
+using System;
 
+class Program {
+  public static void Main (string[] args) {
+    Console.WriteLine ("Ingresar un lado del triangulo");
+    int lado1 = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine ("Ingresar otro lado del triangulo");
+    int lado2 = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine ("Ingresar el ultimo lado del triangulo");
+    int lado3 = Convert.ToInt32(Console.ReadLine());
+    if (lado1 == lado2 && lado2 == lado3) {
+    Console.WriteLine("Este triangulo es equilatero");
+    }
+    else if (lado1 != lado2 && lado2 == lado3 ) {
+    Console.WriteLine("Este triangulo es isoceles");
+    }
+    else {
+      Console.WriteLine("Este triangulo es escaleno");
+    }
+  }
+}
 
 ```
 
