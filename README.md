@@ -132,7 +132,33 @@ class Program
 ```
 
 
-## **Sexto Ejercicio**
+## **Sexto Ejercicio A**
+
+```c#
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    Console.WriteLine ("Ingrese su salario");
+    int salario = Convert.ToInt32(Console.ReadLine());
+    if (salario <= 10000) {
+      Console.WriteLine ("No pagas impuestos recibis todo tu salario");
+    }
+    else if (salario > 10000 && salario <= 30000) {
+      Console.WriteLine ("Pagas el 10% de tu salario en impuestos");
+    }
+    else if (salario > 30000 && salario <= 50000) {
+      Console.WriteLine ("Pagas el 20% de tu salario en impuestos");
+    }
+    else if (salario > 50000) {
+      Console.WriteLine ("Pagas el 35% de tu salario en impuestos");
+  }
+}
+  }
+
+```
+
+## **Sexto Ejercicio B**
 
 ```c#
 
