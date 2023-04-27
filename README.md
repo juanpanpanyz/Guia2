@@ -167,9 +167,9 @@ class Program {
   public static void Main (string[] args) {
     Console.WriteLine ("Ingrese su salario");
     int salario = Convert.ToInt32(Console.ReadLine());
-    int diez = salario / 100 * 90;
-    int veinte = salario / 100 * 80;
-    int treinti = salario / 100 * 65;
+    int diez = salario / 100 * 10;
+    int veinte = salario / 100 * 20;
+    int treinti = salario / 100 * 35;
     if (salario <= 10000) {
       Console.WriteLine($"No pagas impuestos recibis todo tu salario que sería de {salario}");
     }
